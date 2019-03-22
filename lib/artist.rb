@@ -23,4 +23,7 @@ def add_song_by_name(song)
    @@songs << @song
 end
 
+def song_count
+end
+
 end

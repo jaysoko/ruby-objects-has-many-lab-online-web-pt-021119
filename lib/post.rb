@@ -13,7 +13,7 @@ def self.all
 end
 
 def author_name
-  self.author
+  self.author.name
 end
 
 

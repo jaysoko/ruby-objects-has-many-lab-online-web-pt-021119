@@ -22,4 +22,8 @@ def add_post_by_title(title)
    @@posts << post
    post.author = self
 end
+
+def post_count
+  Post.all.size
+end
 end

@@ -24,7 +24,7 @@ def add_song_by_name(name)
    song.artist = self
 end
 
-def song_count
+def self.song_count
   Song.all.size
 end
 end
